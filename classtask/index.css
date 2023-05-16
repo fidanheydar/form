@@ -1,0 +1,55 @@
+body{
+    background-color: #ECF2FF;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    width: 240px;
+    height: 30px;
+    margin: 10px;
+    border: 2px solid rgb(156, 28, 128);
+    outline-color: rgb(187, 160, 214);
+    padding: 5px;
+}
+.form button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(135, 123, 185);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 162px;
+}
+.form button:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#searchinput{
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 150px;
+    height: 20px;
+    border: 2px solid rgb(156, 28, 128);
+    outline-color: rgb(187, 160, 214);
+    padding: 5px;
+    
+    
+
+}
+table{
+   max-width:400px ; 
+ margin-left: 338px;
+ margin-top: 5px;
+}
+.tbody>tr{
+    display: flex;
+    gap: 90px;
+background-color: #ECC9EE;
+}
+.trr{
+    display: flex;
+    gap: 95px;
+  background-color:#ACB1D6 ;
+}
